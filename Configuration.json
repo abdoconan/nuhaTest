@@ -1,0 +1,17 @@
+{
+    "ALLOWED_HOSTS" : ["10.1.4.204", "127.0.0.1", "10.1.23.63", "10.1.17.60", "10.4.30.9"],
+    "DATABASE_NAME": "db.sqlite3",
+    "DATABASE_HOST": "",
+    "DATABASE_USER": "",
+    "DATABASE_PASSWORD": "P@ssw0rd",
+    "ENGINE" : "django.db.backends.sqlite3",
+    "DEBUG" :  true, 
+    "EMAIL_HOST": "10.1.17.88",
+    "EMAIL_PORT" : "25",
+    "EMAIL_HOST_USER" : "tdev@transit.com.eg",
+    "EMAIL_HOST_PASSWORD" : "P@ssw0rd",
+    "EMAIL_USE_TLS" : true,
+    "EMAIL_USE_SSL" : false, 
+    "STATIC_DIR"  : "static"
+}
+    

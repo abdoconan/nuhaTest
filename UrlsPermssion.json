@@ -1,0 +1,8 @@
+[
+    {
+        "url": "/transactions/",
+        "methods": [
+            "POST"
+        ]
+    }
+]
