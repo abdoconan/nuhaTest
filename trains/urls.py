@@ -4,4 +4,6 @@ from trains import views
 urlpatterns = [
     path('train_type/',
          views.TrainTypeView.as_view()),
+    path('coach_composition/',
+         views.CoachCompisitionView.as_view()),
 ]

@@ -10,3 +10,8 @@ from trains import serializers
 class TrainTypeView(CRUDView):
     base_model = models.TrainType
     base_serializer = serializers.TrainTypeSerializers
+
+
+class CoachCompisitionView(CRUDView):
+    base_model = models.CoachCompisition
+    base_serializer = serializers.CoachCompisitionSerializers
