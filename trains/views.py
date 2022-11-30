@@ -24,4 +24,4 @@ class TrainCompoisitionView(CRUDView):
 
 class TrainCoachCompoisitionView(CRUDView):
     base_model = models.TrainCoachCompoisition
-    base_serializer = serializers.TrainCoachCompoisition
+    base_serializer = serializers.TrainCoachCompoisitionSerializers
