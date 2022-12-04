@@ -27,3 +27,12 @@ class TrainCoachCompoisition(AbstractDateModels):
     id = models.AutoField(primary_key=True)
     train_composition = models.ForeignKey(TrainCompoisition, models.CASCADE)
     coach_compoisition = models.ForeignKey(CoachCompoisition, models.CASCADE)
+
+
+class Train(AbstractDateModels):
+    id = models.AutoField(primary_key=True)
+    trainType = models.ForeignKey(TrainType, on_delete=models.CASCADE)
+    composition_number = models.ForeignKey(
+        TrainCompoisition, on_delete=models.CASCADE)
+    start_date = models.DateField()
+    end_date = models.DateField()

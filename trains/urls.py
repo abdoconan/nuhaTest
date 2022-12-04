@@ -10,4 +10,6 @@ urlpatterns = [
          views.TrainCompoisitionView.as_view()),
     path('train_coach/',
          views.TrainCoachCompoisitionView.as_view()),
+    path('train/',
+         views.TrainView.as_view()),
 ]
